@@ -37,15 +37,18 @@
 a {
   outline: none;
   color: white !important;
+  text-decoration: none;
 }
 a:hover {
   background-color: black !important;
   border-bottom: 3px solid hotpink;
   color: hotpink;
+  text-decoration: none;
 }
 a:focus {
   border-bottom: 3px solid hotpink;
   color: hotpink;
+  text-decoration: none;
 }
 /* -----------
 	Header Styles
@@ -69,12 +72,15 @@ header {
   font-size: 19rem;
   color: hotpink;
 }
-.hero-bg > h2 {
+#fed {
   font-family: 'Catamaran', sans-serif;
+  letter-spacing: 0.5rem;
 }
 #main-btn {
   margin: 2rem;
   font-size: 2rem;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
 }
 /* -----------
  Projects Styles
@@ -89,5 +95,9 @@ header {
 @media (max-width: 760px) {
   #yolixtly {
     font-size: 9rem;
+  }
+  #fed {
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
   }
 }
