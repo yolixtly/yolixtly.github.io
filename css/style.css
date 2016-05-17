@@ -154,13 +154,43 @@ header {
  Projects Styles
  -------------*/
 #projects {
-  background-color: white;
-  height: 30rem;
+  background-color: #D9658D;
+  -webkit-background-size: cover;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  color: white;
+}
+#projects h1 {
+  font-family: 'Text Me One', sans-serif;
+  padding: 2rem 0;
+}
+#projects .img-small {
+  width: 40rem;
+}
+#projects h4 {
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  font-weight: 100;
+}
+/* -----------
+ footer Styles
+ -------------*/
+#contact-me {
+  background-color: black;
+  color: white;
+  font-family: 'Text Me One', sans-serif;
+  letter-spacing: 0.3rem;
+}
+#contact-me .social {
+  padding: 0.5rem 2rem;
 }
 /* -----------
  Media Queries
  -------------*/
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   #yolixtly {
     font-size: 9rem;
   }
@@ -173,6 +203,13 @@ header {
   }
   #about-me,
   #about-skills {
-    height: 200vh;
+    height: 100vh;
+  }
+  #projects {
+    height: auto;
+  }
+  .img-small {
+    width: 20rem;
+    margin: 0 auto;
   }
 }
