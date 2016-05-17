@@ -6,13 +6,10 @@
 @font-textme: 'Text Me One', sans-serif;
 @font-cata: 'Catamaran', sans-serif;
 @font-white: white;
-body {
-	background: black;
-}
 
-// /* -----------
-// Header Styles
-// -------------*/
+ /* -----------
+ Navbar Styles
+ -------------*/
 
 .navbar-header, #sections, .navbar {
   background: black;
@@ -66,4 +63,58 @@ a {
 	color: hotpink;
 	}
 }
+ /* -----------
+	Header Styles
+ -------------*/
+header {
+	background-color: black;
+}
+ /* -----------
+ Title Styles
+ -------------*/
+ .hero-bg {
+ 	color: hotpink;
+ 	-webkit-background-size: cover;
+ 	height: 100vh;
+ 	display: flex;
+ 	position: relative;
+ 	align-items: center;
+ }
+
+
+#yolixtly {
+	 font-family: @font-textme;
+	 font-size: 19rem;
+	 color: hotpink;
+}
+
+.hero-bg > h2 {
+	font-family: @font-cata;
+}
+#main-btn {
+	margin: 2rem;
+	font-size: 2rem;
+}
+ /* -----------
+ Projects Styles
+ -------------*/
+
+ #projects {
+ 	background-color: white;
+ 	height: 30rem;
+ }
+
+  /* -----------
+ Media Queries
+ -------------*/
+
+ @media (max-width: 760px) {
+
+ 	#yolixtly {
+ 		font-size: 9rem;
+ 	}
+ 	
+ }
+
+
 

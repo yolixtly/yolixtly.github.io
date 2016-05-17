@@ -1,6 +1,6 @@
-body {
-  background: black;
-}
+/* -----------
+ Navbar Styles
+ -------------*/
 .navbar-header,
 #sections,
 .navbar {
@@ -46,4 +46,48 @@ a:hover {
 a:focus {
   border-bottom: 3px solid hotpink;
   color: hotpink;
+}
+/* -----------
+	Header Styles
+ -------------*/
+header {
+  background-color: black;
+}
+/* -----------
+ Title Styles
+ -------------*/
+.hero-bg {
+  color: hotpink;
+  -webkit-background-size: cover;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+#yolixtly {
+  font-family: 'Text Me One', sans-serif;
+  font-size: 19rem;
+  color: hotpink;
+}
+.hero-bg > h2 {
+  font-family: 'Catamaran', sans-serif;
+}
+#main-btn {
+  margin: 2rem;
+  font-size: 2rem;
+}
+/* -----------
+ Projects Styles
+ -------------*/
+#projects {
+  background-color: white;
+  height: 30rem;
+}
+/* -----------
+ Media Queries
+ -------------*/
+@media (max-width: 760px) {
+  #yolixtly {
+    font-size: 9rem;
+  }
 }
