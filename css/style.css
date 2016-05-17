@@ -1,3 +1,6 @@
+.highlight {
+  font-weight: 300;
+}
 /* -----------
  Navbar Styles
  -------------*/
@@ -40,7 +43,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: black !important;
+  background-color: transparent;
   border-bottom: 3px solid hotpink;
   color: hotpink;
   text-decoration: none;
@@ -83,6 +86,41 @@ header {
   letter-spacing: 0.5rem;
 }
 /* -----------
+ About me Styles
+ -------------*/
+#about-me {
+  background-color: #D9658D;
+  -webkit-background-size: cover;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 50vh;
+}
+#about-me h1 {
+  color: white;
+  font-family: 'Text Me One', sans-serif;
+}
+#about-me p {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+#about-me .Icode {
+  font-family: 'La Belle Aurore', cursive;
+  margin: 0 auto;
+  font-size: 5rem;
+}
+.half > img {
+  border-radius: 45%;
+  width: 15rem;
+  border: 0.5rem solid white;
+}
+/* -----------
  Projects Styles
  -------------*/
 #projects {
@@ -99,5 +137,8 @@ header {
   #fed {
     font-size: 2.2rem;
     letter-spacing: 0.3rem;
+  }
+  #about-me {
+    height: 100vh;
   }
 }
