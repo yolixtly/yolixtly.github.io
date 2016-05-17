@@ -1,0 +1,69 @@
+// /* -----------
+// common Styles
+// -------------*/
+
+@font-belle: 'La Belle Aurore', cursive;
+@font-textme: 'Text Me One', sans-serif;
+@font-cata: 'Catamaran', sans-serif;
+@font-white: white;
+body {
+	background: black;
+}
+
+// /* -----------
+// Header Styles
+// -------------*/
+
+.navbar-header, #sections, .navbar {
+  background: black;
+}
+#hamburger {
+	color: hotpink;
+	border: 2px solid hotpink;
+	background: none;
+}
+
+.icon-bar {
+	background-color: hotpink !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.no-border-here {
+	border: 0px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+#sections {
+	font-family: @font-cata;
+	font-size: 2rem;
+	font-weight: lighter;
+	li {
+	padding: 1rem 3rem 1rem 3rem;
+	letter-spacing: .5rem;
+
+	}
+}
+
+a { 
+	outline: none;
+	color: @font-white !important;
+
+
+	&:hover {
+	background-color: black !important;
+	border-bottom: 3px solid hotpink;
+	color: hotpink;
+	}
+
+	&:focus {
+	border-bottom: 3px solid hotpink;
+	color: hotpink;
+	}
+}
+

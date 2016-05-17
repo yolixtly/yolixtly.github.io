@@ -1,0 +1,49 @@
+body {
+  background: black;
+}
+.navbar-header,
+#sections,
+.navbar {
+  background: black;
+}
+#hamburger {
+  color: hotpink;
+  border: 2px solid hotpink;
+  background: none;
+}
+.icon-bar {
+  background-color: hotpink !important;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.no-border-here {
+  border: 0px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+#sections {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+#sections li {
+  padding: 1rem 3rem 1rem 3rem;
+  letter-spacing: .5rem;
+}
+a {
+  outline: none;
+  color: white !important;
+}
+a:hover {
+  background-color: black !important;
+  border-bottom: 3px solid hotpink;
+  color: hotpink;
+}
+a:focus {
+  border-bottom: 3px solid hotpink;
+  color: hotpink;
+}
