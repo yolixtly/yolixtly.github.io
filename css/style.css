@@ -34,7 +34,7 @@
   font-weight: lighter;
 }
 #sections li {
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem;
   letter-spacing: .5rem;
 }
 a {
@@ -124,10 +124,10 @@ header {
 #about-skills {
   background-color: black;
   -webkit-background-size: cover;
-  height: 100vh;
   display: flex;
   position: relative;
   align-items: center;
+  height: 100vh;
 }
 #about-skills h1 {
   color: hotpink;
@@ -202,11 +202,10 @@ header {
     font-size: 1.5rem !important;
   }
   #about-me,
-  #about-skills {
-    height: 100vh;
-  }
+  #about-skills,
   #projects {
     height: auto;
+    padding: 5rem 0 5rem 0;
   }
   .img-small {
     width: 20rem;
