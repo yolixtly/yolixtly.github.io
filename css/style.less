@@ -62,17 +62,11 @@ a {
 	outline: none;
 	color: @font-white !important;
 	text-decoration: none;
+	transition: all 0.3s ease;
 
 	&:hover {
 	background-color:transparent;
-	border-bottom: 3px solid hotpink;
-	color: hotpink;
-	text-decoration: none;
-	}
-
-	&:focus {
-	border-bottom: 3px solid hotpink;
-	color: hotpink;
+	color: hotpink !important;
 	text-decoration: none;
 	}
 }
@@ -179,19 +173,18 @@ header {
  #projects {
  	background-color: #D9658D;
 	.page-display();
+	height: auto !important;
 	color: white;
 	h1 {
 		font-family: @font-textme;
 		padding: 2rem 0;
 	}
-	// .img-small {
-	// 	width:40rem;
-	// }
 	h4 {
 	font-family: @font-cata;
 	letter-spacing: 0.3rem;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 100;
+	margin-bottom: 2em;
 	}
  }
   /* -----------
@@ -205,6 +198,9 @@ header {
  	.page-display();
  	.social {
  		padding: 0.5rem 2rem;
+ 	}
+ 	.say-hello {
+ 		color: hotpink;
  	}
 
  }
@@ -239,6 +235,12 @@ header {
 	display: inline-block;
 	position: relative;
 	outline: none;
+}
+#link-code {
+	transition: all 1s ease;
+	&:hover {
+		color: black !important;
+	}
 }
   /* -----------
  Media Queries

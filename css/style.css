@@ -41,16 +41,11 @@ a {
   outline: none;
   color: white !important;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 a:hover {
   background-color: transparent;
-  border-bottom: 3px solid hotpink;
-  color: hotpink;
-  text-decoration: none;
-}
-a:focus {
-  border-bottom: 3px solid hotpink;
-  color: hotpink;
+  color: hotpink !important;
   text-decoration: none;
 }
 /* -----------
@@ -161,6 +156,7 @@ header {
   display: flex;
   position: relative;
   align-items: center;
+  height: auto !important;
   color: white;
 }
 #projects h1 {
@@ -170,8 +166,9 @@ header {
 #projects h4 {
   font-family: 'Catamaran', sans-serif;
   letter-spacing: 0.3rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 100;
+  margin-bottom: 2em;
 }
 /* -----------
  footer Styles
@@ -189,6 +186,9 @@ header {
 }
 #contact-me .social {
   padding: 0.5rem 2rem;
+}
+#contact-me .say-hello {
+  color: hotpink;
 }
 /* HOVER LINKs on Projects */
 .caption {
@@ -217,6 +217,12 @@ header {
   display: inline-block;
   position: relative;
   outline: none;
+}
+#link-code {
+  transition: all 1s ease;
+}
+#link-code:hover {
+  color: black !important;
 }
 /* -----------
  Media Queries
