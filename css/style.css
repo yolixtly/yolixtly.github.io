@@ -7,7 +7,7 @@
 .navbar-header,
 #sections,
 .navbar {
-  background: black;
+  background: #212121;
 }
 #hamburger {
   color: hotpink;
@@ -52,13 +52,13 @@ a:hover {
 	Header Styles
  -------------*/
 header {
-  background-color: black;
+  background-color: #212121;
 }
 /* -----------
  Title Styles
  -------------*/
 .hero-bg {
-  color: hotpink;
+  color: #7b2f55 !important;
   -webkit-background-size: cover;
   height: 100vh;
   display: flex;
@@ -77,9 +77,16 @@ header {
 }
 #main-btn {
   margin: 2rem;
+  color: #7b2f55 !important;
   font-size: 2rem;
-  text-decoration: none;
   letter-spacing: 0.5rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+#main-btn:hover {
+  background-color: transparent;
+  color: hotpink !important;
+  text-decoration: none;
 }
 /* -----------
  About me Styles
@@ -118,7 +125,7 @@ header {
 	skills Styles
  -------------*/
 #about-skills {
-  background-color: black;
+  background-color: #212121;
   -webkit-background-size: cover;
   display: flex;
   position: relative;
@@ -174,7 +181,7 @@ header {
  footer Styles
  -------------*/
 #contact-me {
-  background-color: black;
+  background-color: #212121;
   color: white;
   font-family: 'Text Me One', sans-serif;
   letter-spacing: 0.3rem;
@@ -222,7 +229,7 @@ header {
   transition: all 1s ease;
 }
 #link-code:hover {
-  color: black !important;
+  color: #212121 !important;
 }
 /* -----------
  Media Queries

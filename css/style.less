@@ -6,6 +6,7 @@
 @font-textme: 'Text Me One', sans-serif;
 @font-cata: 'Catamaran', sans-serif;
 @font-white: white;
+@black-background: #212121;
 
 .page-display() {
 	-webkit-background-size: cover;
@@ -23,7 +24,7 @@
  -------------*/
 
 .navbar-header, #sections, .navbar {
-  background: black;
+  background: @black-background;
 }
 #hamburger {
 	color: hotpink;
@@ -74,13 +75,13 @@ a {
 	Header Styles
  -------------*/
 header {
-	background-color: black;
+	background-color: #212121;
 }
  /* -----------
  Title Styles
  -------------*/
  .hero-bg {
- 	color: hotpink;
+ 	color: #7b2f55 !important;
 	.page-display();
 	height: 105vh;
  }
@@ -98,9 +99,17 @@ header {
 }
 #main-btn {
 	margin: 2rem;
+	color: #7b2f55 !important;
 	font-size: 2rem;
 	text-decoration: none;
 	letter-spacing: 0.5rem;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	&:hover {
+	background-color:transparent;
+	color: hotpink !important;
+	text-decoration: none;
+	}
 }
  /* -----------
  About me Styles
@@ -139,7 +148,7 @@ header {
  -------------*/
 
 #about-skills {
- 	background-color: black;
+ 	background-color: @black-background;
  	.page-display();
  	height: 100vh;
  	 h1 {
@@ -191,7 +200,7 @@ header {
  footer Styles
  -------------*/
  #contact-me {
- 	background-color: black;
+ 	background-color: @black-background;
  	color: white;
  	font-family: @font-textme;
  	letter-spacing: 0.3rem;
@@ -239,7 +248,7 @@ header {
 #link-code {
 	transition: all 1s ease;
 	&:hover {
-		color: black !important;
+		color: @black-background !important;
 	}
 }
   /* -----------
