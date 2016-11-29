@@ -177,6 +177,20 @@ header {
   font-weight: 100;
   margin-bottom: 2em;
 }
+.porfolio-item {
+  padding: 0 2.5em 0 2.5em;
+}
+.project-title {
+  text-align: left;
+  margin-bottom: -2.5em;
+}
+.github-icon {
+  padding-left: 1em;
+}
+.project-suite > span {
+  width: 25%;
+  padding: 2em;
+}
 /* -----------
  footer Styles
  -------------*/
@@ -196,6 +210,9 @@ header {
 }
 #contact-me .say-hello {
   color: hotpink;
+}
+#made-by {
+  font-size: 0.9em;
 }
 /* HOVER LINKs on Projects */
 .caption {
