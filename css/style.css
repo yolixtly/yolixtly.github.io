@@ -177,19 +177,42 @@ header {
   font-weight: 100;
   margin-bottom: 2em;
 }
-.porfolio-item {
+.portfolio-item {
   padding: 0 2.5em 0 2.5em;
+  margin-top: 5em;
 }
 .project-title {
   text-align: left;
   margin-bottom: -2.5em;
 }
-.github-icon {
+.project-title .github-icon {
   padding-left: 1em;
 }
+.project-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.3em;
+}
+.project-suite {
+  margin-top: 1em;
+}
 .project-suite > span {
-  width: 25%;
-  padding: 2em;
+  color: #212121;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.3em;
+}
+.project-description {
+  text-align: left;
+  margin-top: 0.9em;
+  font-family: 'Text Me One', sans-serif;
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+.project-description span {
+  text-decoration: underline;
 }
 /* -----------
  footer Styles
@@ -272,6 +295,9 @@ header {
   #about-skills h4,
   #projects h4 {
     font-size: 1.5em;
+  }
+  .project-description {
+    font-size: 1em;
   }
   .img-small {
     margin: 0 auto;

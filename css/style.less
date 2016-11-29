@@ -197,8 +197,9 @@ header {
 	}
  }
 
- .porfolio-item {
+ .portfolio-item {
 	padding: 0 2.5em 0 2.5em;
+	margin-top: 5em;
  }
 
  .project-details {
@@ -209,13 +210,39 @@ header {
  	// border: 1px solid blue;
  	text-align: left;
  	margin-bottom: -2.5em;
+ 	.github-icon  {
+		padding-left: 1em;
+	 }
  }
- .github-icon  {
-	padding-left: 1em;
- }
+.project-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1.3em;
+}
+.project-suite {
+ 	// border: 1px solid brown;
+ 	margin-top: 1em;
+}
+
  .project-suite > span {
- 	width: 25%;
- 	padding: 2em;
+ 	// border: 1px solid white;
+ 	color: @black-background;
+ 	font-family: @font-cata;
+ 	font-size: 1.3em;
+ }
+ .project-description {
+ 	// border: 1px solid purple;
+ 	text-align: left;
+ 	margin-top: 0.9em;
+ 	font-family: @font-textme;
+    font-size: 1.3em;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    color: white;
+    span {
+    	text-decoration: underline;
+    }
  }
 
   /* -----------
@@ -298,6 +325,9 @@ header {
 	 	h4 {
 	 		font-size: 1.5em;
 	 	}
+	 }
+	 .project-description {
+	 	font-size: 1em;
 	 }
 	 .img-small {
 	 	margin: 0 auto;
