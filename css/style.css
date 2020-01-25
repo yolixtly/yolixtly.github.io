@@ -35,7 +35,7 @@
 }
 #sections li {
   padding: 1rem;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
 a {
   outline: none;
@@ -71,19 +71,32 @@ header {
   font-size: 19rem;
   color: hotpink;
 }
-#fed {
+.fed {
   font-family: 'Catamaran', sans-serif;
   letter-spacing: 0.5rem;
 }
-#main-btn {
+.main-btn {
   margin: 2rem;
   color: #7b2f55 !important;
   font-size: 2rem;
   letter-spacing: 0.5rem;
   transition: all 0.3s ease;
   text-decoration: none;
+  transition-timing-function: ease-in-out;
 }
-#main-btn:hover {
+.main-btn:hover {
+  background-color: transparent;
+  color: hotpink !important;
+  text-decoration: none;
+}
+.relocation {
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-out 2s;
+}
+.hover {
+  opacity: 1;
+  visibility: visible;
   background-color: transparent;
   color: hotpink !important;
   text-decoration: none;
@@ -92,7 +105,7 @@ header {
  About me Styles
  -------------*/
 #about-me {
-  background-color: #D9658D;
+  background-color: #d9658d;
   -webkit-background-size: cover;
   height: 100vh;
   display: flex;
@@ -157,7 +170,7 @@ header {
  Projects Styles
  -------------*/
 #projects {
-  background-color: #D9658D;
+  background-color: #d9658d;
   -webkit-background-size: cover;
   height: 100vh;
   display: flex;
