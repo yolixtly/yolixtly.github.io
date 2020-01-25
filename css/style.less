@@ -59,17 +59,21 @@
         letter-spacing: 0.5rem;
     }
 }
-
 a {
     outline: none;
-    color: @font-white !important;
     text-decoration: none;
     transition: all 0.3s ease;
 
     &:hover {
         background-color: transparent;
-        color: hotpink !important;
         text-decoration: none;
+    }
+}
+
+a.menu {
+    color: @font-white !important;
+    &:hover {
+        color: hotpink !important;
     }
 }
 /* -----------
@@ -100,7 +104,7 @@ header {
 
 .main-btn {
     margin: 2rem;
-    color: #7b2f55 !important;
+    color: #7b2f55;
     font-size: 2rem;
     text-decoration: none;
     letter-spacing: 0.5rem;
@@ -109,7 +113,7 @@ header {
     transition-timing-function: ease-in-out;
     &:hover {
         background-color: transparent;
-        color: hotpink !important;
+        color: hotpink;
         text-decoration: none;
     }
 }
@@ -213,10 +217,6 @@ header {
 .portfolio-item {
     padding: 0 2.5em 0 2.5em;
     margin-top: 5em;
-}
-
-.project-details {
-    // border: 1px solid black;
 }
 
 .project-title {
@@ -327,6 +327,14 @@ header {
     #fed {
         font-size: 2.2rem;
         letter-spacing: 0.3rem;
+    }
+    a.main-btn {
+        font-size: 1.4rem;
+        letter-spacing: normal;
+        margin: 0.5rem;
+    }
+    #relocation {
+        font-size: 1.5rem;
     }
     .custom-size {
         font-size: 1.5rem !important;

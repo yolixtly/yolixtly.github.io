@@ -39,14 +39,18 @@
 }
 a {
   outline: none;
-  color: white !important;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 a:hover {
   background-color: transparent;
-  color: hotpink !important;
   text-decoration: none;
+}
+a.menu {
+  color: white !important;
+}
+a.menu:hover {
+  color: hotpink !important;
 }
 /* -----------
 	Header Styles
@@ -77,7 +81,7 @@ header {
 }
 .main-btn {
   margin: 2rem;
-  color: #7b2f55 !important;
+  color: #7b2f55;
   font-size: 2rem;
   letter-spacing: 0.5rem;
   transition: all 0.3s ease;
@@ -86,7 +90,7 @@ header {
 }
 .main-btn:hover {
   background-color: transparent;
-  color: hotpink !important;
+  color: hotpink;
   text-decoration: none;
 }
 .relocation {
@@ -294,6 +298,10 @@ header {
   #fed {
     font-size: 2.2rem;
     letter-spacing: 0.3rem;
+  }
+  a.main-btn {
+    font-size: 1rem;
+    letter-spacing: normal;
   }
   .custom-size {
     font-size: 1.5rem !important;
