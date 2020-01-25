@@ -9,334 +9,344 @@
 @black-background: #212121;
 
 .page-display() {
-	-webkit-background-size: cover;
- 	height: 100vh;
- 	display: flex;
- 	position: relative;
- 	align-items: center;
+    -webkit-background-size: cover;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
 }
 
 .highlight {
-	font-weight: 300;
+    font-weight: 300;
 }
- /* -----------
+/* -----------
  Navbar Styles
  -------------*/
 
-.navbar-header, #sections, .navbar {
-  background: @black-background;
+.navbar-header,
+#sections,
+.navbar {
+    background: @black-background;
 }
 #hamburger {
-	color: hotpink;
-	border: 2px solid hotpink;
-	background: none;
+    color: hotpink;
+    border: 2px solid hotpink;
+    background: none;
 }
 
 .icon-bar {
-	background-color: hotpink !important;
+    background-color: hotpink !important;
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 .no-border-here {
-	border: 0px;
+    border: 0px;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
 #sections {
-	font-family: @font-cata;
-	font-size: 2rem;
-	font-weight: lighter;
-	li {
-	padding: 1rem;
-	letter-spacing: .5rem;
-
-	}
+    font-family: @font-cata;
+    font-size: 2rem;
+    font-weight: lighter;
+    li {
+        padding: 1rem;
+        letter-spacing: 0.5rem;
+    }
 }
 
-a { 
-	outline: none;
-	color: @font-white !important;
-	text-decoration: none;
-	transition: all 0.3s ease;
+a {
+    outline: none;
+    color: @font-white !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
 
-	&:hover {
-	background-color:transparent;
-	color: hotpink !important;
-	text-decoration: none;
-	}
+    &:hover {
+        background-color: transparent;
+        color: hotpink !important;
+        text-decoration: none;
+    }
 }
- /* -----------
+/* -----------
 	Header Styles
  -------------*/
 header {
-	background-color: #212121;
+    background-color: #212121;
 }
- /* -----------
+/* -----------
  Title Styles
  -------------*/
- .hero-bg {
- 	color: #7b2f55 !important;
-	.page-display();
-	height: 105vh;
- }
-
+.hero-bg {
+    color: #7b2f55 !important;
+    .page-display();
+    height: 105vh;
+}
 
 #yolixtly {
-	 font-family: @font-textme;
-	 font-size: 19rem;
-	 color: hotpink;
+    font-family: @font-textme;
+    font-size: 19rem;
+    color: hotpink;
 }
 
-#fed {
-	font-family: @font-cata;
-	letter-spacing: 0.5rem;
+.fed {
+    font-family: @font-cata;
+    letter-spacing: 0.5rem;
 }
-#main-btn {
-	margin: 2rem;
-	color: #7b2f55 !important;
-	font-size: 2rem;
-	text-decoration: none;
-	letter-spacing: 0.5rem;
-	transition: all 0.3s ease;
-	text-decoration: none;
-	&:hover {
-	background-color:transparent;
-	color: hotpink !important;
-	text-decoration: none;
-	}
+
+.main-btn {
+    margin: 2rem;
+    color: #7b2f55 !important;
+    font-size: 2rem;
+    text-decoration: none;
+    letter-spacing: 0.5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    &:hover {
+        background-color: transparent;
+        color: hotpink !important;
+        text-decoration: none;
+    }
 }
- /* -----------
+
+.relocation {
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-out 2s;
+}
+.hover {
+    opacity: 1;
+    visibility: visible;
+    background-color: transparent;
+    color: hotpink !important;
+    text-decoration: none;
+}
+/* -----------
  About me Styles
  -------------*/
 
- #about-me {
- 	background-color: #D9658D;
- 	.page-display();
- 	color: white;
+#about-me {
+    background-color: #d9658d;
+    .page-display();
+    color: white;
 
- 	h1 {
- 	font-family: @font-textme;	
- 	}
- 	p {
- 	width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 2rem;
-    font-weight: 100;
-    letter-spacing: 0.2rem;
- 	}
- 	.Icode {
- 		font-family: @font-belle;
- 		margin: 0 auto;
- 		font-size: 5rem;
- 	}
- }
+    h1 {
+        font-family: @font-textme;
+    }
+    p {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 0.2rem;
+    }
+    .Icode {
+        font-family: @font-belle;
+        margin: 0 auto;
+        font-size: 5rem;
+    }
+}
 
- .half > img {
+.half > img {
     border-radius: 45%;
     width: 15rem;
     border: 0.5rem solid white;
- }
- /* -----------
+}
+/* -----------
 	skills Styles
  -------------*/
 
 #about-skills {
- 	background-color: @black-background;
- 	.page-display();
- 	height: 100vh;
- 	 h1 {
- 	color: hotpink;
- 	font-family: @font-textme;
- 	letter-spacing: 0.3rem;	
- 	}
- 	p {
- 	width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 2rem;
-    font-weight: 100;
-    letter-spacing: 0.2rem;
-    color: white;
- 	}
- 	.icons {
-  	color: hotpink;
-  	font-family: @font-textme;
-  		span {
-  			font-size: 3rem;
-  		}
-  
+    background-color: @black-background;
+    .page-display();
+    height: 100vh;
+    h1 {
+        color: hotpink;
+        font-family: @font-textme;
+        letter-spacing: 0.3rem;
+    }
+    p {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .icons {
+        color: hotpink;
+        font-family: @font-textme;
+        span {
+            font-size: 3rem;
+        }
+    }
 }
-
- }
- /* -----------
+/* -----------
  Projects Styles
  -------------*/
 
- #projects {
- 	background-color: #D9658D;
-	.page-display();
-	height: auto !important;
-	color: white;
-	h1 {
-		font-family: @font-textme;
-		padding: 2rem 0;
-	}
-	h4 {
-	font-family: @font-cata;
-	letter-spacing: 0.3rem;
-	font-size: 2rem;
-	font-weight: 100;
-	margin-bottom: 2em;
-	}
- }
+#projects {
+    background-color: #d9658d;
+    .page-display();
+    height: auto !important;
+    color: white;
+    h1 {
+        font-family: @font-textme;
+        padding: 2rem 0;
+    }
+    h4 {
+        font-family: @font-cata;
+        letter-spacing: 0.3rem;
+        font-size: 2rem;
+        font-weight: 100;
+        margin-bottom: 2em;
+    }
+}
 
- .portfolio-item {
-	padding: 0 2.5em 0 2.5em;
-	margin-top: 5em;
- }
+.portfolio-item {
+    padding: 0 2.5em 0 2.5em;
+    margin-top: 5em;
+}
 
- .project-details {
- 	// border: 1px solid black;
- }
+.project-details {
+    // border: 1px solid black;
+}
 
- .project-title {
- 	// border: 1px solid blue;
- 	text-align: left;
- 	margin-bottom: -2.5em;
- 	.github-icon  {
-		padding-left: 1em;
-	 }
- }
+.project-title {
+    // border: 1px solid blue;
+    text-align: left;
+    margin-bottom: -2.5em;
+    .github-icon {
+        padding-left: 1em;
+    }
+}
 .project-image {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3em;
 }
 .project-suite {
- 	// border: 1px solid brown;
- 	margin-top: 1em;
+    // border: 1px solid brown;
+    margin-top: 1em;
 }
 
- .project-suite > span {
- 	// border: 1px solid white;
- 	color: @black-background;
- 	font-family: @font-cata;
- 	font-size: 1.3em;
- }
- .project-description {
- 	// border: 1px solid purple;
- 	text-align: left;
- 	margin-top: 0.9em;
- 	font-family: @font-textme;
+.project-suite > span {
+    // border: 1px solid white;
+    color: @black-background;
+    font-family: @font-cata;
+    font-size: 1.3em;
+}
+.project-description {
+    // border: 1px solid purple;
+    text-align: left;
+    margin-top: 0.9em;
+    font-family: @font-textme;
     font-size: 1.3em;
     font-weight: 100;
     letter-spacing: 0.2rem;
     color: white;
     span {
-    	text-decoration: underline;
+        text-decoration: underline;
     }
- }
+}
 
-  /* -----------
+/* -----------
  footer Styles
  -------------*/
- #contact-me {
- 	background-color: @black-background;
- 	color: white;
- 	font-family: @font-textme;
- 	letter-spacing: 0.3rem;
- 	.page-display();
- 	.social {
- 		padding: 0.5rem 2rem;
- 	}
- 	.say-hello {
- 		color: hotpink;
- 	}
- }
+#contact-me {
+    background-color: @black-background;
+    color: white;
+    font-family: @font-textme;
+    letter-spacing: 0.3rem;
+    .page-display();
+    .social {
+        padding: 0.5rem 2rem;
+    }
+    .say-hello {
+        color: hotpink;
+    }
+}
 
- #made-by {
- 	font-size: 0.9em;
- }
+#made-by {
+    font-size: 0.9em;
+}
 
- /* HOVER LINKs on Projects */
+/* HOVER LINKs on Projects */
 
- .caption {
- 	position: absolute;
- 	width: 100%; 
- 	height: 100%;
- 	opacity: 0;
- 	background: rgba(27, 25, 26, 0.6);
- 	transition: all ease 0.5s;
- 	&:hover {
- 		opacity: 1;
- 	}
- 	 //this centers the icons for the image project
-	.caption-content {
-		position: absolute;
-		top:50%;
-		width: 100%;
-		text-align: center;
-		font-size: 3em;
-		color: rgb(236, 92, 142);
-		.fa {
-			margin-top: -5em;
-		}
-	}
- }
+.caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(27, 25, 26, 0.6);
+    transition: all ease 0.5s;
+    &:hover {
+        opacity: 1;
+    }
+    //this centers the icons for the image project
+    .caption-content {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 3em;
+        color: rgb(236, 92, 142);
+        .fa {
+            margin-top: -5em;
+        }
+    }
+}
 
 #project-link {
-	display: inline-block;
-	position: relative;
-	outline: none;
+    display: inline-block;
+    position: relative;
+    outline: none;
 }
 #link-code {
-	transition: all 1s ease;
-	&:hover {
-		color: @black-background !important;
-	}
+    transition: all 1s ease;
+    &:hover {
+        color: @black-background !important;
+    }
 }
-  /* -----------
+/* -----------
  Media Queries
  -------------*/
 
- @media (max-width: 1000px) {
-
- 	#yolixtly {
- 		font-size: 9rem;
- 	}
- 	#fed {
-	font-size: 2.2rem;
-	letter-spacing: 0.3rem;
-	}
-	.custom-size {
-		font-size: 1.5rem !important;
-	}
-	#about-me, #about-skills, #projects {
-	 	height: auto;
-	 	padding: 5rem 0 5rem 0;
-	 	h4 {
-	 		font-size: 1.5em;
-	 	}
-	 }
-	 .project-description {
-	 	font-size: 1em;
-	 }
-	 .img-small {
-	 	margin: 0 auto;
-	 }
-	 #whoIam {
-		margin-top: 2em;
-	 }
- 	
- }
-
-
-
+@media (max-width: 1000px) {
+    #yolixtly {
+        font-size: 9rem;
+    }
+    #fed {
+        font-size: 2.2rem;
+        letter-spacing: 0.3rem;
+    }
+    .custom-size {
+        font-size: 1.5rem !important;
+    }
+    #about-me,
+    #about-skills,
+    #projects {
+        height: auto;
+        padding: 5rem 0 5rem 0;
+        h4 {
+            font-size: 1.5em;
+        }
+    }
+    .project-description {
+        font-size: 1em;
+    }
+    .img-small {
+        margin: 0 auto;
+    }
+    #whoIam {
+        margin-top: 2em;
+    }
+}
